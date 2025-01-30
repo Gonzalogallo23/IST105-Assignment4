@@ -13,11 +13,11 @@
     </style>
 </head>
 <body>
-    
+
 <h1>Assignment #4</h1>
 
 <div class="form-container">
-    <form action="operation.php" method="POST">
+    <form action="process.php" method="POST">
         <label for="x">Enter value for a:</label>
         <input type="number" id="a" name="a" required>
 

@@ -7,6 +7,6 @@ $command = escapeshellcmd("python3 calculate.py $a $b $c");
 $output = shell_exec($command);
 
 echo "<pre>";
-echo htmlspecialchars($output);
+echo $output;
 echo "</pre>";
 ?>
